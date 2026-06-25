@@ -5,7 +5,7 @@ interface Configurations {
 }
 
 export const bot: Configurations = {
-  nameBot: "Axee",
+  name: "Axee",
   tipe: "PluginTypeScript",
   version: "1.0.2"
 }
