@@ -4,7 +4,7 @@ interface Configurations {
   version: string
 }
 
-export const bot: Configurations {
+export const bot: Configurations = {
   nameBot: "Axee",
   tipe: "PluginTypeScript",
   version: "1.0.2"
