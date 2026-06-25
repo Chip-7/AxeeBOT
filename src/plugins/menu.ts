@@ -1,4 +1,5 @@
 import cmd, { type CommandContext } from "../commands/map.js";
+import { bot } from "../config.ts"
 
 cmd.add({
   name: "menu",
@@ -69,7 +70,7 @@ cmd.add({
     }
 
     const categories = Object.keys(byCategory).sort();
-    let text = `*🤖 BOTWA MENU*\n`;
+    let text = `*🤖 ${bot.name}*\n`;
 
     for (const cat of categories) {
       const list = byCategory[cat]!;
