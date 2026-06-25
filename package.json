@@ -1,6 +1,6 @@
 {
   "name": "botwa",
-  "main": "dist/index.js",
+  "main": "axee/index.js",
   "type": "module",
   "private": true,
   "scripts": {
