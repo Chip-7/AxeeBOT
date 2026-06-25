@@ -16,7 +16,7 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
     "noEmit": false,
-    "outDir": "./dist",
+    "outDir": "./axee",
     "rootDir": ".",
     "types": ["node"]
   },
