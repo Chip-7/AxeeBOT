@@ -1,5 +1,5 @@
 interface Configurations {
-nameBot: string,
+  nameBot: string,
   tipe: string,
   version: string
 }
