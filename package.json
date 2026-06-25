@@ -24,8 +24,5 @@
     "strip-comments": "^2.0.1",
     "ws": "^8.18.3"
   },
-  "trustedDependencies": [
-    "baileys",
-    "protobufjs"
-  ]
+  "trustedDependencies": ["baileys", "protobufjs"]
 }
